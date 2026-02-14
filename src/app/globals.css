@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f0f12;
+  --foreground: #f7f7f8;
+  --surface: #1a1a1f;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+/* Premium gradient orbs - used in hero */
+.gradient-orb {
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 102, 241, 0.18) 0%,
+    rgba(99, 102, 241, 0.06) 40%,
+    transparent 70%
+  );
+}
+
+/* Animated gradient background - hero */
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.hero-gradient-bg {
+  background: linear-gradient(
+    -45deg,
+    #0a0a0f 0%,
+    #0f0f1a 25%,
+    #12122a 50%,
+    #0d0d18 75%,
+    #0a0a0f 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient-shift 18s ease infinite;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
