@@ -12,10 +12,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Aditi | Software Developer",
-  description:
-    "Portfolio of Aditi - Computer Science student and Software Developer passionate about Java, SQL, and MERN stack.",
+  title: "Aditi's Portfolio",
+  description: "Portfolio of Aditi – Computer Science student",
 };
+
 
 export default function RootLayout({
   children,
