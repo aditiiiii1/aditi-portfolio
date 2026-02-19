@@ -108,24 +108,7 @@ export default function Navbar() {
                   </motion.button>
                 </li>
               ))}
-            <li>
-              <motion.div
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.98 }}
-                className="inline-block"
-              >
-                <Link
-                  href="/resume"
-                  className={`text-sm font-medium transition-colors duration-200 hover:text-accent ${
-                    pathname === "/resume"
-                      ? "text-accent"
-                      : "text-surface-300 hover:text-surface-50"
-                  }`}
-                >
-                  Resume
-                </Link>
-              </motion.div>
-            </li>
+         
           </ul>
 
           <motion.button
@@ -190,23 +173,7 @@ export default function Navbar() {
                     </button>
                   </motion.li>
                 ))}
-              <motion.li
-                initial={{ opacity: 0, x: -12 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: navLinks.length * 0.05 }}
-              >
-                <Link
-                  href="/resume"
-                  className={`block py-2 text-sm font-medium transition-colors ${
-                    pathname === "/resume"
-                      ? "text-accent"
-                      : "text-surface-300 hover:text-surface-50"
-                  }`}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  Resume
-                </Link>
-              </motion.li>
+            
             </motion.ul>
           )}
         </AnimatePresence>

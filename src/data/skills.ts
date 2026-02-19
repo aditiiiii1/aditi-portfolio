@@ -45,7 +45,7 @@ export const skillsData: SkillCategory[] = [
     ],
   },
   {
-    name: "Productivity & Office Tools",
+    name: "Office Tools",
     items: [
       "MS Word",
       "Excel",

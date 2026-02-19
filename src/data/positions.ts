@@ -9,18 +9,11 @@ export interface PositionItem {
 export const positionsData: PositionItem[] = [
   {
     id: "1",
-    title: "Member / Lead",
-    organization: "Tech Club / Community",
-    period: "2023 – Present",
+    title: "Memberbership Development Officer",
+    organization: "IEEE - VBIT SB",
+    period: "2024 – 2025",
     description:
-      "Contributing to technical initiatives, organizing events, and mentoring peers.",
+      "Contributed to technical initiatives, organized events, and supported membership growth through active engagement and outreach.",
   },
-  {
-    id: "2",
-    title: "Volunteer / Coordinator",
-    organization: "Campus / External Initiative",
-    period: "2022 – 2023",
-    description:
-      "Coordinated activities and supported team operations.",
-  },
+  
 ];

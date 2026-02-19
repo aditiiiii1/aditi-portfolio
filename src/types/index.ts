@@ -3,7 +3,7 @@ export interface Project {
   title: string;
   description: string;
   techStack: string[];
-  githubUrl: string;
+  githubUrl?: string;
 }
 
 export interface SkillCategory {

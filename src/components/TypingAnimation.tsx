@@ -2,12 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 
-const ROLES = [
-  "Software Developer",
-  "Java Developer",
-  "MERN Stack Developer",
-  "Problem Solver",
-];
+const ROLES = ["Tech Enthusiast", "Problem Solver"];
 
 const TYPE_SPEED = 85;
 const DELETE_SPEED = 55;

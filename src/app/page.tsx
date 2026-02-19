@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Button from "@/components/Button";
@@ -89,8 +90,10 @@ export default function HomePage() {
             className="text-surface-400 text-lg leading-relaxed mb-10"
           >
             I build clean, efficient software and love turning ideas into
-            reality. Passionate about full-stack development and creating
-            impactful solutions.
+            reality.
+            <br />
+            Driven by curiosity and focused on building meaningful technology
+            solutions.
           </motion.p>
           <motion.div
             variants={item}
@@ -266,27 +269,42 @@ export default function HomePage() {
                   whileHover={{ y: -2 }}
                   transition={{ type: "spring", stiffness: 400, damping: 25 }}
                 >
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
-                    <h3 className="text-lg font-semibold text-surface-50">
-                      {exp.role}
-                    </h3>
-                    <span className="text-sm text-accent-light font-medium whitespace-nowrap">
-                      {exp.period}
-                    </span>
+                  <div className="flex gap-4">
+                    {exp.logo && (
+                      <div className="flex-shrink-0">
+                        <Image
+                          src={exp.logo}
+                          alt={`${exp.organization} logo`}
+                          width={36}
+                          height={36}
+                          className="rounded-md object-contain"
+                        />
+                      </div>
+                    )}
+                    <div className="flex-1">
+                      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                        <h3 className="text-lg font-semibold text-surface-50">
+                          {exp.role}
+                        </h3>
+                        <span className="text-sm text-accent-light font-medium whitespace-nowrap">
+                          {exp.period}
+                        </span>
+                      </div>
+                      <p className="text-surface-400 text-sm font-medium mb-2">
+                        {exp.organization}
+                      </p>
+                      <p className="text-surface-300 text-sm leading-relaxed mb-3">
+                        {exp.description}
+                      </p>
+                      {exp.highlights && exp.highlights.length > 0 && (
+                        <ul className="list-disc list-inside text-surface-400 text-sm space-y-1">
+                          {exp.highlights.map((h, i) => (
+                            <li key={i}>{h}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
                   </div>
-                  <p className="text-surface-400 text-sm font-medium mb-2">
-                    {exp.organization}
-                  </p>
-                  <p className="text-surface-300 text-sm leading-relaxed mb-3">
-                    {exp.description}
-                  </p>
-                  {exp.highlights && exp.highlights.length > 0 && (
-                    <ul className="list-disc list-inside text-surface-400 text-sm space-y-1">
-                      {exp.highlights.map((h, i) => (
-                        <li key={i}>{h}</li>
-                      ))}
-                    </ul>
-                  )}
                 </motion.article>
               </ScrollReveal>
             ))}
@@ -379,7 +397,7 @@ export default function HomePage() {
                     type="email"
                     required
                     className="w-full px-4 py-3 rounded-xl bg-surface-900 border border-surface-700 text-surface-50 placeholder-surface-500 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-200"
-                    placeholder="you@example.com"
+                    placeholder="your-email@gmail.com"
                   />
                 </div>
                 <div>
@@ -437,7 +455,7 @@ export default function HomePage() {
                   Connect
                 </h3>
                 <Button
-                  href="https://www.linkedin.com/in/your-profile"
+                  href="https://www.linkedin.com/in/aditiii19/"
                   variant="outline"
                   external
                   className="w-full"
