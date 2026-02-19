@@ -7,7 +7,7 @@ export const skillsData: SkillCategory[] = [
       "Java",
       "JavaScript",
       "Python",
-      "SQL",
+     
       "TypeScript",
     ],
   },
