@@ -8,7 +8,7 @@ export const skillsData: SkillCategory[] = [
       "JavaScript",
       "Python",
       "SQL",
-      "PL/SQL",
+      "TypeScript",
     ],
   },
   {
@@ -17,6 +17,7 @@ export const skillsData: SkillCategory[] = [
       "HTML",
       "CSS",
       "React",
+      "Tailwind CSS"
     ],
   },
   {
@@ -31,7 +32,7 @@ export const skillsData: SkillCategory[] = [
     items: [
       "MongoDB",
       "SQL",
-      "PL/SQL",
+      "Oracle SQL",
     ],
   },
   {
@@ -40,7 +41,6 @@ export const skillsData: SkillCategory[] = [
       "Git",
       "GitHub",
       "Linux",
-      "Postman",
       "ServiceNow",
     ],
   },
