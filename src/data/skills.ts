@@ -30,7 +30,7 @@ export const skillsData: SkillCategory[] = [
     name: "Database Technologies",
     items: [
       "MongoDB",
-      "SQL",
+      "MySQL",
       "Oracle SQL",
     ],
   },
