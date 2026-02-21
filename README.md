@@ -1,10 +1,10 @@
 # Aditi's Portfolio
 
-A modern, professional developer portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
 
 ## Features
 
-- **Pages:** Home, About, Projects, Skills, Contact
+- **Pages:** Home, About, Skills, Projects, Experience, Contact
 - **Design:** Dark mode by default, responsive, smooth hover effects
 - **Tech:** App Router, TypeScript, Tailwind CSS, reusable components
 
