@@ -11,22 +11,27 @@ It includes sections for About, Skills, Projects, Experience, Positions, and Con
 - **Design:** Dark mode by default, responsive, smooth hover effects
 - **Tech:** App Router, TypeScript, Tailwind CSS, reusable components
 
+## Purpose
+
+- **A platform to showcase my development work**
+- **A record of my continuous learning journey**
+
 ## Getting Started
 
-Clone the repository:
+- **Clone the repository:**
 
 git clone https://github.com/aditiiiii1/aditi_portfolio.git
 cd aditi_portfolio
 
-Install dependencies:
+- **Install dependencies:**
 
 npm install
 
-Run development server:
+- **Run development server:**
 
 npm run dev
 
-Open in browser:
+- **Open in browser:**
 
 http://localhost:3000
 
