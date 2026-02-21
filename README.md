@@ -4,28 +4,31 @@ A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **
 It serves as a space to showcase my projects, skills, and learning journey.
 
 Live Website : https://aditiiiii1.vercel.app/
+It includes sections for About, Skills, Projects, Experience, Positions, and Contact.
 
 ## Features
 
-- **Pages:** Home, About, Skills, Projects, Experience, Contact
 - **Design:** Dark mode by default, responsive, smooth hover effects
 - **Tech:** App Router, TypeScript, Tailwind CSS, reusable components
 
 ## Getting Started
 
-1. **Install dependencies**
+Clone the repository:
 
-   ```bash
-   cd portfolio && npm install
-   ```
+git clone https://github.com/aditiiiii1/aditi_portfolio.git
+cd aditi_portfolio
 
-2. **Run the development server**
+Install dependencies:
 
-   ```bash
-   npm run dev
-   ```
+npm install
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Run development server:
+
+npm run dev
+
+Open in browser:
+
+http://localhost:3000
 
 ## Project Structure
 
