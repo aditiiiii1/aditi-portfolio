@@ -4,7 +4,8 @@ A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **
 It serves as a space to showcase my projects, skills, and learning journey.
 
 Live Website : https://aditiiiii1.vercel.app/
-It includes sections for About, Skills, Projects, Experience, Positions, and Contact.
+
+- **It includes sections for About, Skills, Projects, Experience, Positions, and Contact.**
 
 ## Features
 
