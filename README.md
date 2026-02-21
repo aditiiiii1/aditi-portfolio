@@ -1,6 +1,9 @@
 # Aditi's Portfolio
 
 A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+It serves as a space to showcase my projects, skills, and learning journey.
+
+Live Website : https://aditiiiii1.vercel.app/
 
 ## Features
 
